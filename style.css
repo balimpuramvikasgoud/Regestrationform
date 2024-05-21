@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+body{
+    background: url(/registrationform/registrationform.jpg) no-repeat;
+
+    background-size: cover;
+    color:blueviolet;
+}
+.Registration form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 350px;
+}
+    
+ .head{
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 70px;
+ }
+
+ .Registration form p {
+    font-size: 20px;
+    margin: 15px;
+ }
+
+ .Registration form input{
+    font-size: 16px;
+    padding: 15px 10px;
+    width: 100%;
+    border-radius: 5px;
+    
+    outline: none;
+    border: 2px solid black;
+ }
+
+ .Registration form button{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px;
+    padding: 10px 15px;
+    width: 50%;
+    border: 2px solid black;
+    border-radius: 5px;
+ }
+
+ .Registration form button :hover{
+    color: red;
+ }
